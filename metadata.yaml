@@ -15,5 +15,5 @@
 homepage: "https://hqrevenue.com"
 documentation: "https://github.com/hq-developer/hqrevenue-script-template"
 versions:
-  - sha: 70fa7bbf85b79dcdfd6460d28342c8f9b0f20cb7
+  - sha: 41cf2af5e6205ebec27e2eaff1f4f48b1fbc33a5
     changeNotes: Initial release
