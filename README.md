@@ -32,8 +32,6 @@ The HQ revenue's Script template makes it easy for hotels, IBEs and OTAs to send
 Once you have GTM up and running, simply create a new tag, and search for our template in the community gallery.
 Fill in the parameters needed, test the integration, and publish it.
 
-![HQ revenue Script interface](resources/hq-script-interface.png)
-
 ### 1. Organization ID
 You will get this value with our support or sales teams. It is a long identifier id for your organization.
 
@@ -99,16 +97,15 @@ function(){
 **1. Using a Custom Javascript Variable as a function**
 
 You can create a generic date conversion function as a Custom Javascript variable and give it to HQ revenue's to execute
-the conversion before sending the data. For this case, enable the "Yes, transform my date" checkbox, add your function.
-
-![Format Function](resources/format-function.png)
+the conversion before sending the data. For this case, enable the "Yes, transform my date" checkbox, add your function in
+the field "Custom Javascript function to convert dates."
 
 The second parameter is optional. It will be sent to you function, as a second parameter. I can be useful as a helper,
 for example, as a regular expressions pattern.
 
 ```javascript
 function(){
-    return function(date, sedondParameter) {
+    return function(date, secondParameter) {
         return new Date(date).toISOString();
     }
 }
