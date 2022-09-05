@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-homepage: "https://www.example.com"
-documentation: "https://www.example.com/documentation"
+homepage: "https://hqrevenue.com"
+documentation: "https://github.com/hq-developer/hqrevenue-script-template"
 versions:
-  - sha: 5f02a7...bla..37e567874a
-    changeNotes: Initial Version
+  - sha: 70fa7bbf85b79dcdfd6460d28342c8f9b0f20cb7
+    changeNotes: Initial release
